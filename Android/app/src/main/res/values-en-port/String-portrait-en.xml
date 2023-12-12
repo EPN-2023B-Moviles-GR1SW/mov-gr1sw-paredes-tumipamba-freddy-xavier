@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nombre">Xavier Paredes</string>
+    <color name="color1">#FFFFFFFF</color>
+    <color name="color2">#FFBB86FC</color>
 </resources>

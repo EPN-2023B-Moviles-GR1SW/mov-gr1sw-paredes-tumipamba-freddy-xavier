@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nombre">Salome Garzon</string>
+    <color name="color1">#FFBB86FC</color>
+    <color name="color2">#FFFFFFFF</color>
 </resources>

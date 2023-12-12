@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393417921147",
+    "project_id": "b2023-gr1sw-fxpt",
+    "storage_bucket": "b2023-gr1sw-fxpt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393417921147:android:8a292bd67930bd27da88de",
+        "android_client_info": {
+          "package_name": "com.example.gr1_sw_fxpt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5MpEOa346u9ObT8IbU2WL_POlOZkjxRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

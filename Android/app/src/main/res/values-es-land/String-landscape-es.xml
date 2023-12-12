@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="nombre">Todas mienten</string>
+    <color name="color1">#FF10C8AF</color>
+    <color name="color2">#FFFF00F3</color>
 </resources>
