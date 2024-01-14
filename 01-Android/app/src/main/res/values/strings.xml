@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">gr1-sw-fxpt</string>
+    <string name="saludo">Buenos Dias</string>
+    <string-array name="string_array_opciones_dialogo">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+    </string-array>
+</resources>
