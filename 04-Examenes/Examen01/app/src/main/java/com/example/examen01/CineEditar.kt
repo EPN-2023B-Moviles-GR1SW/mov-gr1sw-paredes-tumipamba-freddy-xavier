@@ -41,6 +41,10 @@ class CineEditar : AppCompatActivity() {
             CineDAO().update(cine)
             mostrarSnackbar("Cine Actualizada")
         }
+        val botonVolver = findViewById<Button>(R.id.btn_volver)
+        botonVolver.setOnClickListener {
+            finish()
+        }
     }
 
     fun mostrarSnackbar(texto: String) {

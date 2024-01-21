@@ -102,7 +102,13 @@ class PeliculasVer : AppCompatActivity() {
 
             else -> super.onContextItemSelected(item)
         }
+        val botonVolver = findViewById<Button>(R.id.btn_volver_4)
+        botonVolver.setOnClickListener {
+            val intent = Intent(this, CinesVer::class.java)
+            startActivity(intent)
+        }
     }
+
 
     fun irActividadConId(
         clase: Class<*>,

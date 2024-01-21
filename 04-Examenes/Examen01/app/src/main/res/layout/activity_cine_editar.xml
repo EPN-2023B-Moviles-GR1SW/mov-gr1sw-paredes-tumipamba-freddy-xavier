@@ -37,15 +37,14 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
         android:text="Ubicación:"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/input_ubicacion"
         app:layout_constraintEnd_toStartOf="@+id/input_ubicacion"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.754"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/input_ubicacion"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.851" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_ubicacion"
@@ -107,5 +106,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.94" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_actualizar_cine"
+        app:layout_constraintVertical_bias="0.116" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

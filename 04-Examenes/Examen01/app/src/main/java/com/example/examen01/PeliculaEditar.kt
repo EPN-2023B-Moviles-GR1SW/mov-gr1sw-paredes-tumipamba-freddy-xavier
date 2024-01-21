@@ -43,6 +43,10 @@ class PeliculaEditar : AppCompatActivity() {
             PeliculaDAO().update(pelicula)
             mostrarSnackbar("Pelicula Actualizada")
         }
+        val botonVolver = findViewById<Button>(R.id.btn_volver_3)
+        botonVolver.setOnClickListener {
+            finish()
+        }
     }
 
     fun mostrarSnackbar(texto: String) {

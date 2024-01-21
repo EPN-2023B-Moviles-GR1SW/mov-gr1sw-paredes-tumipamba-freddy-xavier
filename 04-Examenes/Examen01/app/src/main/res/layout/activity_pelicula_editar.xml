@@ -14,14 +14,16 @@
         android:text="Película:"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/input_pelicula"
+        app:layout_constraintEnd_toStartOf="@+id/input_pelicula"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/input_pelicula"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="41dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_pelicula"
         android:layout_width="230dp"
-        android:layout_height="38dp"
+        android:layout_height="42dp"
         android:hint="Película"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,9 +39,11 @@
         android:text="Director:"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/input_director"
+        app:layout_constraintEnd_toStartOf="@+id/input_director"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/input_director"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="41dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_director"
@@ -55,7 +59,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_ano"
         android:layout_width="230dp"
-        android:layout_height="38dp"
+        android:layout_height="42dp"
         android:layout_marginTop="108dp"
         android:hint="Año"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,8 +100,11 @@
         android:text="Año:"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/input_ano"
+        app:layout_constraintEnd_toStartOf="@+id/input_ano"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/input_ano"
-        tools:layout_editor_absoluteX="41dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView2"
@@ -105,18 +112,34 @@
         android:layout_height="wrap_content"
         android:text="Precio:"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="290dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/input_precio_entrada"
+        app:layout_constraintEnd_toStartOf="@+id/input_precio_entrada"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/input_precio_entrada"
+        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/input_precio_entrada"
         android:layout_width="230dp"
-        android:layout_height="38dp"
+        android:layout_height="42dp"
         android:layout_marginEnd="44dp"
         android:hint="Precio"
         app:layout_constraintBottom_toTopOf="@+id/input_estado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_ano"
         app:layout_constraintVertical_bias="0.471" />
+
+    <Button
+        android:id="@+id/btn_volver_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_actualizar_pelicula"
+        app:layout_constraintVertical_bias="0.162" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
