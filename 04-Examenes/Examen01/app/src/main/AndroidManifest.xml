@@ -19,9 +19,6 @@
             android:name=".PeliculaEditar"
             android:exported="false" />
         <activity
-            android:name=".DepartamentosVer"
-            android:exported="false" />
-        <activity
             android:name=".CinesVer"
             android:exported="false" />
         <activity
