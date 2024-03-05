@@ -33,10 +33,10 @@ class BaseDeDatos {
             listaDePeliculas.add(
                 Pelicula(
                     2,
-                    "The Shawshank Redemption",
-                    "Frank Darabont",
-                    1994,
-                    10.0,
+                    "Spiderman",
+                    "Sam Raimi",
+                    2002,
+                    12.0,
                     "Estrenada"
                 )
             )
@@ -44,19 +44,19 @@ class BaseDeDatos {
             listaDeCines.add(
                 Cine(
                     0,
-                    "CineAmbato",
-                    "Ambato",
+                    "Multicines",
+                    "Quito",
                     true,
-                    15
+                    12
                 )
             )
             listaDeCines.add(
                 Cine(
                     1,
-                    "CineQuito",
-                    "Quito",
+                    "Supercines",
+                    "Ambato",
                     true,
-                    20
+                    15
                 )
             )
             listaDeCines.get(0).listaPeliculas.add(listaDePeliculas.get(0))
